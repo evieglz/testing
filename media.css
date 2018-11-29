@@ -1,0 +1,43 @@
+body{
+    background-color: black !important;
+    color: pink !important;
+}
+.container{
+    padding-top: 25px;
+}
+.row{
+    box-sizing: border-box;
+    border-bottom: 2px solid pink;
+}
+
+
+/* changes when the screen size is 769px or less */
+@media screen and (max-width: 768px){
+    /* bg changes colors */
+    body{
+        background-color: pink !important;
+        color: black !important;
+    }
+    .container{
+        width: 500px !important;
+    }
+    .row{
+        box-sizing: border-box;
+        border-bottom: 2px dashed black;
+    }
+}
+
+@media screen and (max-width: 450px){
+    /* bg changes colors */
+    body{
+        background-color: pink !important;
+        color: black !important;
+    }
+    .container{
+        width: 300px !important;
+    }
+    .row{
+        box-sizing: border-box;
+        border-bottom: 2px dashed pink;
+    }
+}
